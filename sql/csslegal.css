@@ -1,0 +1,141 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url('fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Medium;
+	src: url('fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Bold;
+	src: url('fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-SemiBold;
+	src: url('fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+
+body{
+	
+	padding-top: 5%;
+	background-color: #ffffff;
+	background-image: url("img/Pixe.png");
+}
+
+
+
+/* Scroolbar */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ffffff;
+	border-radius: 15px;
+}
+/* Scroolbar */
+
+
+
+div#interface {
+
+	justify-content: center;
+	width: 75%;
+	background: #ffffff;
+	border-radius: 15px;
+	margin: 10px auto 10px auto;
+	padding: 100px;
+}
+
+form{
+	width: 100%;
+	margin: auto;
+	font-family: sans-serif;
+	border-radius: 15px;
+}
+
+fieldset{
+	width: 100%;
+	border: 3px solid;
+	border-color: #333333;
+	border-radius: 20px;
+	margin: auto auto 10px auto;
+}
+
+legend#tituloprincipal{
+	font-family: 'Poppins-Bold';
+    font-size: 17pt;
+	color: #333333;
+	margin: 10pc auto 10px auto;
+}
+
+input{
+	background-color: #f7f7f7;
+	color: #333333;
+    font-size: 10pt;
+	font-family: 'Poppins-Medium';
+	border-radius: 15px;
+}
+
+option{
+	background-color: #f7f7f7;
+	color: #333333;
+    font-size: 10pt;
+	font-family: 'Poppins-Regular';
+	margin: 10pc auto 10px auto;
+}
+
+option#selecione{
+	background-color: #333333;
+	color:#ffffff;
+	font-family: 'Poppins-Regular';
+	margin: 10pc auto 10px auto;
+}
+
+option{
+	background-color: #333333;
+	color:#ffffff;
+	font-family: 'Poppins-Regular';
+	margin: 10pc auto 10px auto;
+}
+
+p{
+	font-family: 'Poppins-Medium';
+    font-size: 12pt;
+	color: #333333;
+}
+
+table{
+	width: 99%;
+	text-align: center;
+}
+
+th, td{
+	font-family: 'Poppins-Medium';
+	font-size: 12pt;
+	color: #333333;
+	font-size: 9pt;
+	border: 5px solid;
+	border-color: #1111111a;
+	padding: 3px;
+}
+
+a{
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d3d3d3;
+	text-decoration: underline;
+}
